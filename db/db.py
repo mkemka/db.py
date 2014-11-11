@@ -136,9 +136,9 @@ class Column(object):
 
     def all(self):
         """
-        Returns all unique values as a DataFrame. This is executing:
+        Returns all values as a DataFrame. This is executing:
             SELECT
-                DISTINCT
+            
                     <name_of_the_column>
             FROM
                 <name_of_the_table>
